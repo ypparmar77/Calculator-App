@@ -1,0 +1,60 @@
+
+body{
+    background: linear-gradient(135deg, hsl(0, 6%, 13%), #000000);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#btn {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#btn button {
+    padding: 10px 60px;
+    border: 0px solid;
+    background-color: black;
+    color: white;
+}
+
+.calculator {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator .manwork #a1 {
+    width: 500px;
+    padding: 10px;
+    border: 0px solid;
+    /* background-color: aqua; */
+}
+
+.manwork #a1 {
+    background-color: black;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+.textwork #t1 {
+    padding: 20px 30px;
+}
+
+.textwork #t2 {
+    padding: 20px 80px;
+    text-align: center;
+}
+
+.textwork {
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    padding: 30px;
+    font-family: "Outfit", sans-serif;
+}
